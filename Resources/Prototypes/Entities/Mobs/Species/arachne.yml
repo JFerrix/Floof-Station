@@ -9,14 +9,14 @@
     # Arachne are one of the species that needs a manual visual layers setup.
     layers:
     - map: [ "enum.HumanoidVisualLayers.LLeg" ]
-      sprite: Mobs/Species/arachne.rsi
+      sprite: Mobs/Species/arachne/parts.rsi
       state: spider_body
     - map: [ "enum.HumanoidVisualLayers.Chest" ]
       color: "#e8b59b"
       sprite: Mobs/Species/Human/parts.rsi
       state: torso_m
     - map: [ "enum.HumanoidVisualLayers.RLeg" ]
-      sprite: Mobs/Species/arachne.rsi
+      sprite: Mobs/Species/arachne/parts.rsi
       state: spider_body_front
     - map: [ "enum.HumanoidVisualLayers.Head" ]
       color: "#e8b59b"
@@ -105,6 +105,12 @@
     #       32:
     #         sprite: Mobs/Species/Human/displacement.rsi
     #         state: jumpsuit-female
+    displacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/arachne/displacement.rsi
+            state: jumpsuit
   - type: Tag
     tags:
     - CanPilot
@@ -158,17 +164,25 @@
   categories: [ HideSpawnMenu ]
   description: A dummy arachne meant to be used in character setup.
   components:
+  - type: Inventory
+    templateId: anytaur
+    displacements:
+      jumpsuit:
+        sizeMaps:
+          32:
+            sprite: Mobs/Species/arachne/displacement.rsi
+            state: jumpsuit
   - type: Sprite
     layers:
     - map: [ "enum.HumanoidVisualLayers.LLeg" ]
-      sprite: Mobs/Species/arachne.rsi
+      sprite: Mobs/Species/arachne/parts.rsi
       state: spider_body
     - map: [ "enum.HumanoidVisualLayers.Chest" ]
       color: "#e8b59b"
       sprite: Mobs/Species/Human/parts.rsi
       state: torso_m
     - map: [ "enum.HumanoidVisualLayers.RLeg" ]
-      sprite: Mobs/Species/arachne.rsi
+      sprite: Mobs/Species/arachne/parts.rsi
       state: spider_body_front
     - map: [ "enum.HumanoidVisualLayers.Head" ]
       color: "#e8b59b"
