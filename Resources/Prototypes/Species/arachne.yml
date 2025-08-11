@@ -8,8 +8,8 @@
   markingLimits: MobArachneMarkingLimits
   dollPrototype: MobArachneDummy
   skinColoration: Hues
-  minAge: 60
-  youngAge: 150
+  minAge: 18
+  youngAge: 18
   oldAge: 400
   maxAge: 666
   customName: true
