@@ -9,7 +9,7 @@
   dollPrototype: MobArachneDummy
   skinColoration: Hues
   minAge: 18
-  youngAge: 18
+  youngAge: 100
   oldAge: 400
   maxAge: 666
   customName: true
