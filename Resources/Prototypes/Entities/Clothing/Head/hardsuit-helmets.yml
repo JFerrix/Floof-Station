@@ -71,6 +71,10 @@
       - state: equipped-head-unshaded-feroxi
         shader: unshaded
       # End DeltaV species helmets
+      head-arachne:
+      - state: equipped-head-arachne
+      - state: equipped-head-unshaded-arachne
+        shader: unshaded
   - type: PointLight
     color: "#adffe6"
   - type: PressureProtection

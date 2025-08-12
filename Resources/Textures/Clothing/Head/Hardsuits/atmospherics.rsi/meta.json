@@ -32,6 +32,14 @@
       "directions": 4
     },
     {
+      "name": "equipped-head-unshaded-arachne",
+      "directions": 4
+    },
+    {
+      "name": "equipped-head-arachne",
+      "directions": 4
+    },
+    {
       "name": "equipped-head-unshaded-vox",
       "directions": 4
     },
@@ -50,7 +58,7 @@
     {
       "name": "equipped-head-unshaded-vulpkanin",
       "directions": 4
-    },      
+    },
     {
       "name": "equipped-head-harpy",
       "directions": 4
