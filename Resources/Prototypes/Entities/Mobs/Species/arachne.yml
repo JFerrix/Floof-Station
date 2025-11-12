@@ -104,7 +104,7 @@
       jumpsuit:
         sizeMaps:
           32:
-            sprite: Mobs/Species/arachne/displacement.rsi
+            sprite: _Floof/Mobs/Species/arachne/displacement.rsi
             state: jumpsuit
     # femaleDisplacements: # Floof - displacements
     #   jumpsuit:
@@ -172,7 +172,7 @@
       jumpsuit:
         sizeMaps:
           32:
-            sprite: Mobs/Species/arachne/displacement.rsi
+            sprite: _Floof/Mobs/Species/arachne/displacement.rsi
             state: jumpsuit
   - type: Sprite
     layers:
