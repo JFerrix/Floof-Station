@@ -65,3 +65,11 @@
     Plastic: 500
     Silver: 300
     Plasma: 150
+
+- type: latheRecipe
+  id: MagazineBoxAntiMateriel
+  result: MagazineBoxAntiMateriel
+  category: Ammo
+  completetime: 5
+  materials:
+    Steel: 2000

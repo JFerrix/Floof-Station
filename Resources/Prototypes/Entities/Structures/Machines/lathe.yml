@@ -236,6 +236,7 @@
     - MagazineMagnum # Goobstation
     - MagazineMagnumLeverRifleEmpty # Goobstation
     - MagazineMagnumLeverRifle # Goobstation
+    - MagazineBoxAntiMateriel # Floof (Why the fuck is this not a thing?)
 
 - type: entity
   id: AutolatheHyperConvection
